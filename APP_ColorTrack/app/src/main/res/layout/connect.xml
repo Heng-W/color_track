@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:gravity="center_horizontal"
+	android:background="@null">
+	
+	
+	
+	<LinearLayout 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="80dp"	
+		
+		android:gravity="center">
+		
+
+		
+		<ImageView
+			android:layout_width="60dp"
+			android:layout_height="60dp"
+			android:background="@null"
+			android:src="@drawable/ic_launcher"/>
+
+		<TextView
+			style="@style/TvStyle"
+			android:text="@string/app_name"
+			android:textColor="@color/black"
+			android:fontFamily="cursive"
+			android:textStyle="bold"
+			android:textSize="32sp" />
+		
+	</LinearLayout>
+	
+	
+	<TextView
+		style="@style/TvStyle"
+		android:layout_marginTop="80dp"	
+		
+		android:text="Target:STM32F4"
+		android:textColor="@color/cu_green"
+		android:fontFamily="cursive"
+		android:textStyle="bold"
+		android:textSize="28sp" />
+	
+	
+
+
+
+	<Button
+		android:id="@+id/connect_button"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="30dp"
+		android:layout_marginRight="30dp"	
+		android:layout_marginTop="50dp"	
+		
+		android:background="@color/btn"
+		android:textColor="@color/white"
+		android:textSize="20sp"
+		android:letterSpacing="1"
+		android:text="连接"/>
+
+</LinearLayout>

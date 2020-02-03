@@ -1,0 +1,154 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:gravity="center_horizontal"
+	android:background="@null">
+	
+	<View
+		android:layout_width="fill_parent"
+		android:layout_height="10dp"/>
+	
+	<TextView 
+		android:id="@+id/mode"
+		style="@style/TvStyle"
+		android:text="当前模式:手动"
+		/>
+	
+	<Button
+		android:id="@+id/start_btn"
+		style="@style/BtnStyle"
+		android:layout_marginTop="20dp"	
+		
+		android:text="开始跟踪"/>
+	
+	<View
+		android:layout_width="fill_parent"
+		android:layout_height="20dp"/>
+	
+	
+	<Button
+		android:id="@+id/up_btn"
+		style="@style/BtnStyle"
+		android:text="抬头"/>
+	
+	<View
+		android:layout_width="fill_parent"
+		android:layout_height="10dp"/>
+	
+	<LinearLayout 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal">
+		
+	
+	
+	<Button
+		android:id="@+id/left_btn"
+		style="@style/BtnStyle"
+		
+		android:text="左旋"/>
+	
+		<View
+			android:layout_width="50dp"
+			android:layout_height="0dp"/>
+		
+		
+	
+	<Button
+		android:id="@+id/right_btn"
+		style="@style/BtnStyle"
+		android:text="右旋"/>
+	
+	</LinearLayout>
+	
+	<View
+		android:layout_width="fill_parent"
+		android:layout_height="10dp"/>
+	
+	
+	<Button
+		android:id="@+id/down_btn"
+		style="@style/BtnStyle"
+		android:text="低头"/>
+	
+	<LinearLayout 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dp"	
+		
+		android:gravity="center"
+		android:focusable="true"
+		android:focusableInTouchMode="true"
+		
+		>
+		
+		<TextView 
+			style="@style/TvStyle"
+			android:textSize="14sp"  
+			android:textColor="@color/black"
+			android:text="目标宽度:"
+		/>
+	
+	<EditText
+		android:id="@+id/edit_w"
+		android:layout_width="50dp"
+		android:layout_height="wrap_content"
+		android:hint=""
+		android:editable="true"
+		android:maxLength="3"   
+		android:lines="1"
+		android:textSize="14sp"  
+		android:inputType="number"
+		android:digits="0123456789"
+	/>
+
+		<TextView 
+			style="@style/TvStyle"
+			android:textSize="14sp"  
+			android:textColor="@color/black"
+			
+			android:text="高度:"
+		/>
+
+		<EditText
+			android:id="@+id/edit_h"
+			android:layout_width="50dp"
+			android:layout_height="wrap_content"
+			android:hint=""
+			android:editable="true"
+			android:maxLength="3"   
+			android:lines="1"
+			android:textSize="14sp"  
+			android:inputType="number"
+			android:digits="0123456789"
+		/>
+	
+		<Button
+			android:id="@+id/sendwh_btn"
+			style="@style/BtnStyle"
+			android:textSize="16sp"  
+			
+			android:text="发送"/>
+
+		
+	
+	</LinearLayout>
+	
+	<Button
+		android:id="@+id/pick_btn"
+		style="@style/BtnStyle"
+		android:layout_marginTop="20dp"	
+		android:text="拍照采集"/>
+	
+	
+
+	
+	
+		
+    
+	
+	
+    
+</LinearLayout>
+

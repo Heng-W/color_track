@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ColorTrack Client</string>
+	
+	<string name="first_label">工作模式</string>
+	<string name="second_label">颜色设定</string>
+	<string name="third_label">状态监测</string>
+	
+	
+	<string name="exit_item">关闭连接</string>
+	<string name="reset_item">状态复位</string>
+	<string name="camera_reset_item">摄像头复位</string>
+	
+</resources>

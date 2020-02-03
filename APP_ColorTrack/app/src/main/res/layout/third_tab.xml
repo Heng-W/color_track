@@ -1,0 +1,142 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:gravity="center_horizontal"
+	android:background="@null">
+
+
+
+	
+	<TextView 
+		android:id="@+id/time_tv"
+		style="@style/TvStyle"	
+		android:layout_marginTop="10dp"
+		android:textColor="@color/cu_green"
+		
+		android:text="当前时间 0:00"/>
+	
+	<Button
+		android:id="@+id/monitor_btn"
+		style="@style/BtnStyle"
+		android:layout_marginTop="20dp"	
+		android:text="开始监测"/>
+
+	
+	
+	<TextView 
+		android:id="@+id/frame_tv"
+		style="@style/TvStyle"	
+		android:layout_marginTop="20dp"
+		
+		android:text="帧率:0 fps"/>
+	
+
+
+	<TextView 
+		style="@style/TvStyle"	
+		android:layout_marginTop="30dp"
+		android:paddingBottom="10dp"
+		android:textColor="@color/black"
+		android:text="摄像头角度"/>
+
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center">
+
+		<TextView
+			android:id="@+id/angleh_tv"
+			style="@style/TvStyle"	
+			android:layout_weight="1"
+
+			android:text="水平角:0°"/>
+
+
+		<TextView
+			android:id="@+id/anglev_tv"
+			style="@style/TvStyle"	
+			android:layout_weight="1"
+			android:text="垂直角:0°"/>
+
+	</LinearLayout>
+
+	<TextView 
+		style="@style/TvStyle"	
+		android:layout_marginTop="30dp"
+		android:paddingBottom="10dp"
+		android:textColor="@color/black"
+		android:text="追踪物体信息"/>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="100dp"
+		android:orientation="vertical"
+		android:gravity="center_horizontal">
+
+		<TextView 
+			android:id="@+id/track_tv"
+			style="@style/TvStyle"	
+			android:layout_marginTop="20dp"
+			android:visibility="visible"
+			android:text="未识别到颜色"/>
+
+		<LinearLayout
+			android:id="@+id/track_linear"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:visibility="gone">
+
+			<LinearLayout
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:orientation="vertical"
+				android:gravity="center_horizontal">
+
+
+
+
+				<TextView
+					android:id="@+id/xpos_tv"
+					style="@style/TvStyle"	
+					android:text="x坐标:0"/>
+
+
+
+				<TextView
+					android:id="@+id/ypos_tv"
+					style="@style/TvStyle"	
+					android:text="y坐标:0"/>
+
+			</LinearLayout>
+
+
+			<LinearLayout
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:orientation="vertical"
+				android:gravity="center_horizontal">
+
+
+				<TextView
+					android:id="@+id/width_tv"
+					style="@style/TvStyle"	
+					android:text="宽度:0"/>
+
+
+				<TextView
+					android:id="@+id/height_tv"
+					style="@style/TvStyle"	
+					android:text="高度:0"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+
+</LinearLayout>

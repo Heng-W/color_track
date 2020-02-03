@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hw.colortrack" >
+	
+	<original-package android:name="com.hw.colortrack"/>
+		
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<!-- 蓝牙权限 -->
+	<uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+	<uses-permission android:name="android.permission.BLUETOOTH"/>
+	<!-- Android 5.0以上蓝牙需要位置权限 -->
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+	<uses-permission android:name="andriod.permission.ACCESS_FINE_LOCATION"/>
+	<uses-feature android:name="android.hardware.bluetooth_le" android:required="false"/>
+	
+    <application
+		
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.hw.colortrack.MainActivity"
+            android:label="@string/app_name" 
+			android:screenOrientation="portrait"
+			>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

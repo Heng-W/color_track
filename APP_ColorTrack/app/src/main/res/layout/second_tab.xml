@@ -1,0 +1,163 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+ 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:gravity="center_horizontal"
+	android:background="@null">
+
+	<TextView 
+		android:id="@+id/color1_tv"
+		style="@style/TvStyle"	
+		android:layout_marginTop="20dp"
+		android:textColor="@color/blue"
+		android:text="摄像头追踪颜色:0xff0000"/>
+
+	<TextView 
+		style="@style/TvStyle"	
+		android:layout_marginTop="20dp"
+		android:textColor="@color/black"
+		android:text="预定义颜色"/>
+
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="40dp"
+		android:orientation="horizontal"
+		android:gravity="center">
+
+		<ImageView
+			android:id="@+id/img1"
+			style="@style/ImgViewStyle"
+			android:layout_weight="1"
+			android:src="@drawable/circle"/>
+
+		<ImageView
+			android:id="@+id/img2"
+			style="@style/ImgViewStyle"
+			android:layout_weight="1"
+			android:src="@drawable/circle"/>
+
+		<ImageView
+			android:id="@+id/img3"
+			style="@style/ImgViewStyle"
+			android:layout_weight="1"
+			android:src="@drawable/circle"/>
+
+		<ImageView
+			android:id="@+id/img4"
+			style="@style/ImgViewStyle"
+			android:layout_weight="1"
+			android:src="@drawable/circle"/>
+
+
+
+
+	</LinearLayout>
+
+
+	<TextView 
+		style="@style/TvStyle"	
+		android:textColor="@color/black"
+		android:text="自定义颜色"/>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="80dp"
+		android:orientation="horizontal"
+		android:gravity="center">
+
+		<View
+			android:layout_width="10dp"
+			android:layout_height="fill_parent"/>
+		
+		<com.hw.colortrack.ColorPicker
+		    android:id="@+id/picker"
+			android:layout_width="0dp"
+			android:layout_height="50dp"
+			android:layout_weight="1"
+			app:indicatorEnable="true"
+			app:indicatorColor="#fff"
+			app:orientation="horizontal"/>
+
+
+			<View
+				android:layout_width="10dp"
+				android:layout_height="fill_parent"/>
+
+
+	</LinearLayout>
+
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:gravity="center"
+		android:focusable="true"
+		android:focusableInTouchMode="true"
+
+	>
+
+
+		<TextView 
+			android:id="@+id/color_tv"
+			style="@style/TvStyle"	
+			android:textColor="@color/black"
+			android:textSize="16sp"
+			android:text="输入十六进制颜色码"/>
+
+		<EditText
+			android:id="@+id/color_hex"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:hint="示例:ff0000"
+
+			android:maxLength="6"   
+			android:lines="1"
+			android:textSize="14sp"  
+			android:inputType="number"
+			android:digits="0123456789abcdefABCDEF"
+		/>
+
+	</LinearLayout>
+
+	<TextView 
+		android:id="@+id/color2_tv"
+		style="@style/TvStyle"	
+		android:layout_marginTop="20dp"
+		android:textColor="@color/blue"
+		android:text="当前选择颜色:0xff0000"/>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="80dp"
+		android:orientation="horizontal"
+		android:gravity="center">
+
+
+		<Button
+			android:id="@+id/chg_btn"
+			style="@style/BtnStyle"
+
+			android:text="确认更改"/>
+
+		<View
+			android:layout_width="30dp"
+			android:layout_height="fill_parent"/>
+
+
+		<Button
+			android:id="@+id/hf_btn"
+			style="@style/BtnStyle"
+			android:text="恢复默认"/>
+
+	</LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
