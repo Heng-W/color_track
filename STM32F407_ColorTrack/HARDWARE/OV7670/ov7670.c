@@ -1,7 +1,6 @@
 #include "sys.h"
 #include "delay.h"
 #include "OV7670/ov7670.h"
-//#include "OV7670/ov7670cfg.h"
 #include "OV7670/sccb.h"
 #include "EXTI/exti.h"
 #include "SPI_LCD/Lcd_Driver.h"
