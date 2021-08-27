@@ -26,34 +26,20 @@
 
 
 ### 整体预览
-<div align="center">
-	<img src="pictures/sys.png" width="600" />
-    <img src="pictures/yuntab.png" width="600" />
-</div>
+![Alt text](https://gitee.com/heng_w/imagebed/raw/master/prj/color_track/sys.png)
+![Alt yuntab](https://gitee.com/heng_w/imagebed/raw/master/prj/color_track/yuntab.png)
 
 ### 识别效果
-<div align="center">
-	<img src="pictures/recogn1.png" height="250" />
-	<img src="pictures/recogn2.png" height="250" />
-</div>
-
+![Alt recogn1](https://gitee.com/heng_w/imagebed/raw/master/prj/color_track/recogn1.png)
+![Alt recogn2](https://gitee.com/heng_w/imagebed/raw/master/prj/color_track/recogn2.png)
 
 ### 硬件架构
-<div align="center">
-	<img src="pictures/hw.png" width="600" />
-</div>
-
-
+![Alt hw](https://gitee.com/heng_w/imagebed/raw/master/prj/color_track/hw.png)
 ### 软件架构
-<div align="center">
-	<img src="pictures/sw.png" width="600" />
-</div>
-
+![Alt sw](https://gitee.com/heng_w/imagebed/raw/master/prj/color_track/sw.png)
 
 ### APP界面
-<div align="center">
-	<img src="pictures/app0.png" width="200" />
-	<img src="pictures/app1.png" width="200" />
-	<img src="pictures/app2.png" width="200" />
-	<img src="pictures/app3.png" width="200" />
-</div>
+![Alt app0](https://gitee.com/heng_w/imagebed/raw/master/prj/color_track/app0.png)
+![Alt app1](https://gitee.com/heng_w/imagebed/raw/master/prj/color_track/app1.png)
+![Alt app2](https://gitee.com/heng_w/imagebed/raw/master/prj/color_track/app2.png)
+![Alt app3](https://gitee.com/heng_w/imagebed/raw/master/prj/color_track/app3.png)
