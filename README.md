@@ -1,9 +1,9 @@
 # color_track
-#### Color recognition and tracking based on STM32F407, android app use bluetooth to connect MCU.  
-#### 基于STM32F407的颜色识别与目标跟踪，安卓APP通过蓝牙连接单片机
+### Color recognition and tracking based on STM32F407, including android app using bluetooth to communicate.  
+### 基于STM32F407的颜色识别与目标跟踪，包括蓝牙连接通讯的安卓APP
 
 ### 简述
-    对摄像头采集的图像进行颜色识别，通过二自由度舵机云台实现颜色跟踪以保持目标物体位于视野中央，利用手机APP发出控制指令实现交互。
+对摄像头采集的图像进行颜色识别，通过二自由度舵机云台实现颜色跟踪以保持目标物体位于视野中央，利用手机APP发出控制指令实现交互。
 
 ### 具体内容
 1. 微控制器采用STM32F407VET6单片机，采集CMOS摄像头（OV7670带FIFO）的图像数据并实时送至SPI LCD显示。
@@ -26,20 +26,20 @@
 
 
 ### 整体预览
-![Alt text](https://gitee.com/heng_w/imagebed/raw/master/prj/color_track/sys.png)
-![Alt yuntab](https://gitee.com/heng_w/imagebed/raw/master/prj/color_track/yuntab.png)
+![text](https://gitee.com/heng_w/imagebed/raw/master/prj/color_track/sys.png)
+![yuntab](https://gitee.com/heng_w/imagebed/raw/master/prj/color_track/yuntab.png)
 
 ### 识别效果
-![Alt recogn1](https://gitee.com/heng_w/imagebed/raw/master/prj/color_track/recogn1.png)
-![Alt recogn2](https://gitee.com/heng_w/imagebed/raw/master/prj/color_track/recogn2.png)
+![recogn1](https://gitee.com/heng_w/imagebed/raw/master/prj/color_track/recogn1.png)
+![recogn2](https://gitee.com/heng_w/imagebed/raw/master/prj/color_track/recogn2.png)
 
 ### 硬件架构
-![Alt hw](https://gitee.com/heng_w/imagebed/raw/master/prj/color_track/hw.png)
+![hw](https://gitee.com/heng_w/imagebed/raw/master/prj/color_track/hw.png)
 ### 软件架构
-![Alt sw](https://gitee.com/heng_w/imagebed/raw/master/prj/color_track/sw.png)
+![sw](https://gitee.com/heng_w/imagebed/raw/master/prj/color_track/sw.png)
 
 ### APP界面
-![Alt app0](https://gitee.com/heng_w/imagebed/raw/master/prj/color_track/app0.png)
-![Alt app1](https://gitee.com/heng_w/imagebed/raw/master/prj/color_track/app1.png)
-![Alt app2](https://gitee.com/heng_w/imagebed/raw/master/prj/color_track/app2.png)
-![Alt app3](https://gitee.com/heng_w/imagebed/raw/master/prj/color_track/app3.png)
+![app0](https://gitee.com/heng_w/imagebed/raw/master/prj/color_track/app0.png)
+![app1](https://gitee.com/heng_w/imagebed/raw/master/prj/color_track/app1.png)
+![app2](https://gitee.com/heng_w/imagebed/raw/master/prj/color_track/app2.png)
+![app3](https://gitee.com/heng_w/imagebed/raw/master/prj/color_track/app3.png)
